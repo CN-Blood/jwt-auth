@@ -2,8 +2,6 @@
 <h1><p align="center">JWT-AUTH</p></h1>
 <p align="center"> thinkphp的jwt（JSON Web Token）身份验证包。支持Header、Cookie、Param等多种传参方式。包含：验证、验证并且自动刷新等多种中间件。</p>
 
-[thinkphp6.0的demo下载](https://gitee.com/thans/jwt-auth/attach_files/306748/download)
-
 ## 支持Swoole
 
 ## 环境要求
@@ -105,33 +103,3 @@ token传参方式如下：
 #### 其他操作
 1. 拉黑Token JWTAuth::invalidate($token);
 2. 查询Token是否黑名单 JWTAuth::validate($token);
-
-#### 常见问题
-- 使用RSA256方式的时候，请使用文本形式。如下：
-
-![image](https://thans.cn/Snipaste_2020-01-18_17-25-52.png)
-
-## 联系&打赏
-
-[打赏名单](SUPPORT.md)
-
-![image](https://thans.cn/others/thans.jpeg)
-
-## 参考与借鉴
-
-https://github.com/tymondesigns/jwt-auth
-
-## 感谢
-
-- jwt-auth
-- php
-- lcobucci/jwt
-- thinkphp
-
-## 下一步
-
-- 支持动态配置
-
-## License
-
-MIT
